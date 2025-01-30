@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-12 07:31:12 "/>
+        <attribute name="created" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6Mjc6MzEgOyAyNTI0"/>
+        <attribute name="edited" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6MzE6MTIgOyAyNTE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lado1" type="Integer" array="False" size=""/>
+            <declare name="lado2" type="Integer" array="False" size=""/>
+            <declare name="lado3" type="Integer" array="False" size=""/>
+            <output expression="&quot;insria o valor de um dos lados&quot;"/>
+            <input variable="lado1"/>
+            <output expression="&quot;insira mais um valor&quot;"/>
+            <input variable="lado2"/>
+            <output expression="&quot;outro&quot;"/>
+            <input variable="lado3"/>
+            <if expression="lado1 &lt; lado2 + lado3">
+                <then>
+                    <if expression="lado2 &lt; lado1 + lado3">
+                        <then>
+                            <if expression="lado3 &lt; lado1 + lado2">
+                                <then>
+                                    <output expression="&quot;&#233; um triangulo&quot;"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;n&#227;o &#233; um triangulo&quot;"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;n&#227;o &#233; um triangulo&quot;"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;n&#227;o &#233; um triangulo&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-26 08:10:22 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwNzoxNDozNiAiOzIyODU="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODowOTo1OCAiOzE7MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwNzoxNDozNiAiOzQ3NDY="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODoxMDoyMiAiOzM7MjM4Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="meuArray" type="Integer" array="True" size="11"/>
+            <assign variable="meuArray[0]" expression="1"/>
+            <assign variable="meuArray[1]" expression="0"/>
+            <assign variable="meuArray[2]" expression="5"/>
+            <assign variable="meuArray[3]" expression="-2"/>
+            <assign variable="meuArray[4]" expression="-5"/>
+            <assign variable="meuArray[5]" expression="7"/>
+            <assign variable="meuArray[6]" expression="-3"/>
+            <assign variable="meuArray[7]" expression="25"/>
+            <assign variable="meuArray[8]" expression="43"/>
+            <assign variable="meuArray[9]" expression="85"/>
+            <assign variable="meuArray[10]" expression="-120"/>
+            <declare name="numeros" type="Integer" array="False" size=""/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="positivos" type="Integer" array="False" size=""/>
+            <assign variable="positivos" expression="0"/>
+            <for variable="contador" start="0" end="10" direction="inc" step="1">
+                <assign variable="numeros" expression="meuArray[contador]"/>
+                <if expression="numeros &gt; 0">
+                    <then>
+                        <output expression="numeros" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

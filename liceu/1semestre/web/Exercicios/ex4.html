@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>EX 4</title>
+</head>
+
+<body>
+
+    <input id="1" type="number" placeholder="numero 1">
+    <button onclick=adicionar()>Adicionar</button>
+    <button onclick=mostrarTudo()>Mostrar</button>
+
+    <p id="texto"></p>
+
+    <script>
+        maior = 0;
+        menor = 0;
+        qntNumeros=0;
+        
+        function adicionar() {
+            numero1 = document.getElementById("1").value;
+
+            if (parseInt(numero1) > maior) {
+                maior = parseInt(numero1);
+            } else if (parseInt(numero1) < menor) {
+                menor = parseInt(numero1);
+            }
+            qntNumeros++;
+            
+        }
+
+        function mostrarTudo(){
+    
+            document.getElementById("texto").innerHTML = `${maior} é o maior numero e ${menor} é o menor numero,
+            A quantidade de numeros é ${qntNumeros}`;
+        }
+
+    </script>
+
+</body>
+
+</html>

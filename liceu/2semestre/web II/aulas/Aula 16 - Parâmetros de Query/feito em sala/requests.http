@@ -1,0 +1,16 @@
+POST http://localhost:3000/characters
+Content-Type: application/json
+
+{
+    "name": "Tina",
+    "species": "alien",
+    "age": 112
+}
+
+###
+
+GET http://localhost:3000/characters
+
+###
+
+GET http://localhost:3000/characters?species=alien&order=age

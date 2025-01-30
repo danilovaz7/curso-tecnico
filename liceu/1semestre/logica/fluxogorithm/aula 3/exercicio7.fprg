@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 08:48:57 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwNzo1MDo1NCAiOzIyODc="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwODo0ODo1NyAiOzI7MjQwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qntMercadoria" type="Integer" array="False" size=""/>
+            <declare name="valorMercadoria" type="Integer" array="False" size=""/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <declare name="media" type="Integer" array="False" size=""/>
+            <input variable="qntMercadoria"/>
+            <for variable="contador" start="1" end="qntMercadoria&#13;&#10;" direction="inc" step="1&#13;&#10;">
+                <input variable="valorMercadoria"/>
+                <assign variable="soma" expression="soma + valorMercadoria"/>
+            </for>
+            <assign variable="media" expression="soma / qntMercadoria"/>
+            <output expression="soma" newline="True"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Joãozinho",
+    "email": "joao@mail.com",
+    "password": "123"
+}
+
+###
+
+GET http://localhost:3000/users
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMyMzAzNTkwLCJleHAiOjE3MzIzMDQxOTB9.nzfL7xJdGoqy_QroPyWBYglxWhJgfJqAF8qjGvrPXzg; Path=/; HttpOnly
+
+###
+
+GET http://localhost:3000/users/1
+
+###
+
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "name": "João da Silva"
+}
+
+###
+
+DELETE http://localhost:3000/users/2

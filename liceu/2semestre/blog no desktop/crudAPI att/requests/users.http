@@ -1,0 +1,41 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Eduardo",
+    "email": "eduardo@mail.com",
+    "password": "12334",
+    "type": "Normal",
+    "image": "asiodfhoihjfiwehfiawehfiawhifhiawehf"
+}
+
+###
+
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/1
+
+###
+
+PUT http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "name": "Testeww"
+}
+
+###
+
+DELETE http://localhost:3000/users/2
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "testuser3@gmail.com",
+    "password": "123"
+}

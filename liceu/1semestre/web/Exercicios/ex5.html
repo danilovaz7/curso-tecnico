@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>EX 5</title>
+</head>
+
+<body>
+
+    <input id="1" type="number" placeholder="numero 1">
+
+    <div>
+        <button onclick=adicionar()>Adicionar</button>
+        <button onclick=mostrarTudo()>Mostrar</button>
+    </div>
+
+    <p id="texto"></p>
+
+    <script>
+
+        let numeros = [];
+        
+
+        function adicionar() {
+            numero1 = document.getElementById("1").value;
+
+ 
+            numeros.push(numero1);
+
+            numeros.sort();
+
+
+        }
+
+        function mostrarTudo() {
+
+            let listaOrdenada = "";
+
+            for (let i = numeros.length - 1; i >= 0; i--) {
+                if (i == 0) {
+                    listaOrdenada = listaOrdenada + `${numeros[i]}. `;
+                } else {
+                    console.log(numeros[i]);
+                    listaOrdenada = listaOrdenada + `${numeros[i]}, `;
+                }
+
+            }
+
+            document.getElementById("texto").innerHTML = `A lista em ordem decrescente é: ${listaOrdenada}`;
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

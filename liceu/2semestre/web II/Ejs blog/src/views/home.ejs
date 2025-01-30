@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bdd5ff;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 0px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include('templates/header') %>
+
+        <% for (post of posts) { %>
+            <%- include('templates/post', { title: post.title, content: post.content,userName: post.user.name,imgPath:
+                post.user.image }) %>
+                <% } %>
+</body>
+
+</html>

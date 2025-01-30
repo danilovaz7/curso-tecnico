@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "31f7690a1b56563e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7925aba355e53496",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6262df9c09e747dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aula 16/Aula 16 - Introdução ao JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88aff8f66a85bdc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "69bab871658eff90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64438836707fbc33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "152f75d6cec2f98c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e0089af44dccfc5a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd9170531295f168",
+    "type": "split",
+    "children": [
+      {
+        "id": "cecbeb446b343b57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b9a1434aa109da7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "aula 16/Aula 16 - Introdução ao JavaScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "278576022a7fe80f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "aula 16/Aula 16 - Introdução ao JavaScript.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb64d813fd2979bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec3e739c7641cb72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "aula 16/Aula 16 - Introdução ao JavaScript.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "6262df9c09e747dc",
+  "lastOpenFiles": [
+    "aula 20/Aula 20 - Armazenamento local e Code-along.md",
+    "aula 18/Aula 18 - Revisão de JavaScript e Formulários.md",
+    "aula 19/Aula 19 - Exercícios de JS.md",
+    "aula 21/Blog Informativo.md",
+    "aula 21/Aula 21 - Trabalhos finais e mais Code-along.md",
+    "Blog Informativo.md",
+    "aula 08/Aula 08 - Flexbox no layout da página.md",
+    "aula 16/Aula 16 - Introdução ao JavaScript.md",
+    "aula 17/Aula 17 - Mais JavaScript e Adicionais de CSS.md",
+    "aula 18/demo/input.html",
+    "aula 18/demo/form.html",
+    "aula 18/demo",
+    "aula 18",
+    "aula 17/darkmode/sun.png",
+    "aula 17/colorpicker/index.html",
+    "aula 17/darkmode/index.html",
+    "aula 17/colorpicker/hex.js",
+    "aula 17/darkmode/moon.png",
+    "aula 17/darkmode",
+    "aula 17/colorpicker",
+    "aula 17",
+    "aula 16/contador.png",
+    "aula 15/Aula 15 - Aula dedicada à página de eleição para o grêmio.md",
+    "aula 14/Aula 14 - Aula dedicada à página de eleição para o grêmio.md",
+    "aula 13/Aula 13 - Aula dedicada à página de eleição para o grêmio.md",
+    "aula 12/Web3.png",
+    "aula 12/Web2.png",
+    "aula 12/Aula 12 - Exercitando Flexbox e Responsividade.md",
+    "aula 12/Web1.png",
+    "aula 12/Mobile3.png",
+    "aula 12/Mobile2.png",
+    "aula 12/Mobile1.png",
+    "aula 11/final/eu.jpeg",
+    "aula 11/Aula 11 - Introduzindo responsividade e miudices.md",
+    "aula 10/Aula 10 - Continuando o exercício de Flexbox.md",
+    "aula 09/Aula 09 - Exercitando Flexbox.md",
+    "aula 07/Aula 07 - Estou dodói.md",
+    "aula 06/Aula 06 - Novamente o exercício.md",
+    "aula 05/Aula 05 - Exercício de CSS.md",
+    "aula 04/Aula 4 - Introdução ao CSS.md",
+    "aula 03/Aula 3 - Vamos exercitar o que aprendemos.md",
+    "aula 02/Aula 2 - Elementos estruturais da página.md",
+    "aula 01/Aula 1 - Introdução, Configuração e Conceitos Básicos.md",
+    "relatorioUrna/Relario Unra liceu.md",
+    "Aula 11 - Introduzindo responsividade e miudices.md",
+    "Aula 2 - Elementos estruturais da página.md"
+  ]
+}

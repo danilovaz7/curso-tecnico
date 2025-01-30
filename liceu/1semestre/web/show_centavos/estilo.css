@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001f4d;
+    font-family: 'Luckiest Guy', cursive;
+    min-height: 100vh;
+}
+
+#main-jogo {
+    width: 100%;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    background-color: #012B8D;
+    border: 5px solid #FFD700; 
+    border-radius: 20px;
+    box-shadow: 0 0 20px #FFD700;
+}
+
+#topo {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+
+#topo img {
+    width: 33%;
+    cursor: pointer;
+}
+
+.pontuacao-espaco {
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+#pergunta {
+    background-color: #001f4d;
+    border: 5px solid #FFD700;
+    color: #FFD700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+}
+
+#pontuacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#pontuacao img {
+    margin-top: 7px;
+}
+
+#alternativas {
+    width: 90%;
+    height: 400px;
+    padding: 1em;
+    background-color: #001f4d;
+    color: white;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+#todas-alternativas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.alternativa {
+    width: 40%;
+    border-radius: 5px;
+    border: 2px solid #FFD700;
+    background-color: #001f4d;
+    color: #FFD700;
+    padding: 0.5em;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.alternativaUsuario {
+    background-color: rgb(192, 192, 33);
+    color: black;
+}
+
+.alternativaCorreta {
+    background-color: green;
+}
+
+.errou {
+    background-color: red;
+}
+
+#todas-alternativas :hover {
+    background-color: rgb(143, 20, 20);
+    cursor: pointer;
+}
+
+#botao-form {
+    width: 30%;
+    padding: 0.7em;
+    color: white;
+    background-color: rgb(245, 35, 35);
+    border: 1px solid rgb(245, 35, 35);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#form button:hover {
+    background-color: rgb(143, 20, 20);
+    border: 1px solid rgb(143, 20, 20);
+}
+
+#mainIndex {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #012B8D;
+    border: 5px solid #FFD700; 
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px #FFD700; 
+    width: 350px;
+    height: 250px;
+}
+
+#header-index {
+    text-align: center;
+}
+
+.resultadoWrapper h2 {
+    background-color: #001f4d;
+    border: 5px solid #FFD700;
+    color: #FFD700;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.menuWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.menuWrapper button  {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #001f4d;
+    background-color: #FFD700;
+    border: 2px solid #FFD700;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+.menuWrapper button:hover {
+    background-color: #e6b800;
+}
+
+a {
+    text-decoration: none;
+    color: #001f4d;
+}
+
+#header-resultados img {
+    width: 50%;
+}
+
+#mainResultados {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloResultado {
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-shadow: 3px 3px #e6b800;
+}
+
+.resultadoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #001f4d; /* Azul escuro */
+    border: 5px solid #FFD700; /* Dourado */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #FFD700; /* Sombra dourada */
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+.resultadoWrapper p {
+    color: white;
+    font-family: "Luckiest Guy", cursive;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.resultadoWrapper button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #001f4d;
+    background-color: #FFD700;
+    border: 2px solid #FFD700;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+.resultadoWrapper button:hover {
+    background-color: #e6b800;
+    color: #ffffff;
+}
+
+#botao-form {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #001f4d;
+    background-color: #FFD700;
+    border: 2px solid #FFD700;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+}
+
+#botao-form:hover {
+    background-color: #e6b800;
+    color: #ffffff;
+}
+
+.alert {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    z-index: 1; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.alertContent {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background-color: #001f4d;
+    padding: 20px;
+    border: 3.5px solid #FFD700;
+    width: 30%; 
+    border-radius: 20px;
+    box-shadow: 0 0 20px #FFD700; 
+    color: #FFD700; 
+    text-align: center;
+    gap: 1rem;    
+}
+
+
+
+.alertClose:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.alertClose:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.alertContent h2 {
+    margin: 0;
+}
+
+#alertOkBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFD700; 
+    border: none;
+    color: #001f4d; 
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#alertOkBtn:hover {
+    background-color: #fff;
+    color: #001f4d;
+}
+
+@media (max-width: 500px) {
+    #main-jogo {
+        gap: 50px;
+    }
+    
+   
+    #topo {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+    
+    
+    #topo img {
+        width: 100%;
+      
+    }
+     
+    #pontuacao {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .pontuacao-espaco {
+        width: 400px;
+        height: 60px;
+        margin-left: 0px;
+    }
+    
+    
+    #pergunta {
+        font-size: 16px;
+        width: 100%;
+        height: 300px;
+       
+   
+    }
+   
+    
+    #pontuacao img {
+        margin-top: 7px;
+        width: 90%;
+    }
+
+    #alternativas {
+        width: 100%;
+        height: 350px;
+ 
+    }
+    
+    
+    #form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    #todas-alternativas {
+        
+        gap: 30px;
+    }
+    
+    .alternativa {
+        width: 100%;
+        border-radius: 5px;
+        gap: 5px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .alternativaUsuario {
+        background-color: rgb(192, 192, 33);
+        color: black;
+    }
+    
+    .alternativaCorreta {
+        background-color: green;
+        color: black;
+    }
+    
+    .errou {
+        background-color: red;
+    }
+    
+    #todas-alternativas :hover {
+        background-color: rgb(192, 192, 33);
+        }
+
+    #botao-form {
+        width: 80%;
+        padding: 0.7em;
+        color: white;
+        background-color: rgb(245, 35, 35);
+        border: 1px solid rgb(245, 35, 35);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+
+    /* index*/
+
+    #body-index{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+        border: 5px solid #FFD700; 
+        border-radius: 20px;
+     
+    }
+
+    #header-index img{
+        width: 400px;
+    }
+   
+    .alert {
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .alertContent {
+        
+        width: 70%; 
+       
+           
+    }
+ 
+
+    /*resultado*/
+    #header-resultados img {
+        width: 400px;
+    }
+    
+    #mainResultados {
+        font-size: 16px;
+       
+    }
+    
+    
+    
+    .resultadoWrapper {
+        
+        font-size: 15px;
+    }
+    
+
+    
+    .resultadoWrapper p {
+        
+        font-size: 20px;
+    }
+    
+    .resultadoWrapper button {
+        margin-top: 20px;
+    
+    }
+    
+  
+    
+  
+
+}

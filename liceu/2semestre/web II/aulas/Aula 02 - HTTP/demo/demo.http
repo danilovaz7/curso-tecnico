@@ -1,0 +1,24 @@
+GET http://localhost:3000/alunos
+
+###
+
+POST http://localhost:3000/alunos
+Content-Type: application/json
+
+{
+    "aluno": "Paulo"
+}
+
+###
+
+GET https://pokeapi.co/api/v2/pokemon/mudkip
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+
+{
+    "title": "Meu novo post!",
+    "body": "Esse é um post feito através de um POST na API",
+    "userId": 1
+}

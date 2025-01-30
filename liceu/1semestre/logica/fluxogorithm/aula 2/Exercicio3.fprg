@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-12 07:14:02 "/>
+        <attribute name="created" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6MTA6MzAgOyAyNTE1"/>
+        <attribute name="edited" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6MTQ6MDIgOyAyNTE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Integer" array="False" size=""/>
+            <declare name="nota2" type="Integer" array="False" size=""/>
+            <declare name="nota3" type="Integer" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;insira nota da primeira prova&quot;"/>
+            <input variable="nota1"/>
+            <output expression="&quot;insira nota da segunda prova&quot;"/>
+            <input variable="nota2"/>
+            <output expression="&quot;isira nota da terceira prova&quot;"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="(nota1*2 + nota2*3 + nota3*5) / 10"/>
+            <if expression="media &gt;= 6">
+                <then>
+                    <output expression="&quot;parabens voc&#234; passou, com media de &quot; &amp;media"/>
+                </then>
+                <else>
+                    <output expression="&quot;estude mais, sua media foi de &quot; &amp;media"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

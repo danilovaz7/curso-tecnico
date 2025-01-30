@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ex 1</title>
+</head>
+<body>
+    <div id="inputs">
+        <input id="1" type="number" placeholder="numero 1">
+        <input id="2" type="number" placeholder="numero 2">
+    </div>
+    
+    <button onclick=qualMaior()>Resultado</button>
+    <div id="texto">
+        <p id="texto"></p>
+    </div>
+
+
+<script>
+
+    function qualMaior(){
+        numero1 = document.getElementById("1").value;
+        numero2 = document.getElementById("2").value;
+
+        if(numero1 > numero2){
+            document.getElementById("texto").innerHTML = `${numero1} é o maior`;
+        } else {
+            document.getElementById("texto").innerHTML = `${numero2} é o maior`;
+        }
+    }
+
+</script>
+
+</body>
+</html>

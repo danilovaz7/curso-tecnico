@@ -1,0 +1,257 @@
+* {
+    font-family: 'Montserrat', Courier, monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(56, 1, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(95, 2, 2);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 1.25em;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+
+}
+
+h1 {
+    font-size: 25px;
+}
+
+button {
+    width: 150px;
+    font-size: 20px;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+
+}
+
+#personagens {
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+
+}
+
+.agente-foto {
+    background-color: rgb(221, 60, 60);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.agente {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.agente img {
+    width: 100%;
+    height: 20em;
+
+}
+
+
+#section-index {
+    width: 90%;
+    background-color: rgb(238, 32, 32);
+    border-radius: 10px;
+    padding: 2em;
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(95, 2, 2);
+    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.animacao-shake img {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@media (max-width: 1300px) {
+    #personagens {
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .agente {
+        width: 30%;
+        gap: 10px;
+    }
+
+    .agente img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .agente {
+        width:80%;
+        gap: 10px;
+    }
+
+    .agente img {
+        width: 100%;
+        height: 10em;
+
+    }
+
+    #personagens {
+        flex-direction: column;
+        gap: 2em;
+       
+        width: 70%;
+
+    }
+
+    button {
+       
+        font-size: 24px;
+        
+    
+    }
+
+    #section-index {
+        
+        padding: 1em;
+        font-size: 18px;
+        
+    
+    }
+
+
+}

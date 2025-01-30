@@ -1,0 +1,173 @@
+
+body {
+    background-color: pink;
+}
+h1{
+    color: black;
+    
+  ;
+    
+}
+h2 {
+    font-size: 20px;
+    justify-content: center;
+}
+
+footer {
+    color: black;
+   text-align: center;
+   clear: both;
+   margin-top: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+p{
+    color: black;
+}
+
+#carteirinha{
+    width: 400px;
+    height: 610px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    border: 5px solid rgb(61, 86, 224);
+    border-radius: 5px;
+}
+
+#retrato {
+    float: left;
+    margin: 25px;
+    border: 5px solid rgb(61, 86, 224);
+    border-radius: 5px;
+    width: 100px;
+    
+}    
+
+#liceu {
+    border-radius: 5px;
+    margin: 20px;
+    width: 250px;
+}
+
+#conteudo {
+    clear: both;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(241, 50, 50);
+    margin: auto;
+    border: 1px solid rgb(61, 86, 224);
+    border-radius: 5px;
+}
+#conteudo2 {
+    clear: both;
+    width: 250px;
+    height: 100px;
+    background-color:rgb(241, 50, 50);
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+.divisao1{
+    
+    text-align:left;
+    margin-bottom: 25px;
+}
+.divisao1 h4{
+    display: inline;
+    padding-left: 10px;
+    color: white;
+}
+.divisao1 h5{
+    display: inline;
+    padding-left: 220px;
+}
+.divisao2{
+    
+    text-align:left;
+    margin-bottom: 25px;
+}
+.divisao2 h4{
+    display: inline;
+    padding-left: 10px;
+    color: white;
+}
+.divisao2 h5{
+    display: inline;
+    padding-left: 230px;
+}
+.divisao3{
+    
+    text-align:left;
+}
+.divisao3 h4{
+    display: inline;
+    padding-left: 10px;
+    color: white;
+}
+.divisao3 h5{
+    display: inline;
+    padding-left: 200px;
+}
+
+#course {
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+#nome {
+    background-color: rgb(241, 50, 50);
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 190px;
+    height: 60px;
+    border: 1px solid rgb(61, 86, 224);
+    border-radius: 5px;
+    color: white;
+    
+}
+#nome h2 {
+    float: left;
+    margin-left: 10px;
+}
+#nome h3 {
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+#conteudo2 img{
+    width: 200px;
+    padding-top: 20px;
+}
+
+
+
+#conteudo3 img{
+   width: 70px;
+   padding: 20px;
+   
+
+}
+
+#conteudo3{
+    margin-top: 40px;
+ }
+ #qrcode {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    background-color: rgb(241, 50, 50);
+ }
+
+
+

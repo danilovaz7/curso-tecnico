@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\projetoolamundo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|c:\\users\\241045\\source\\repos\\projetoolamundo\\projetoolamundo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|c:\\users\\241045\\source\\repos\\projetoolamundo\\projetoolamundo\\minigames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\minigames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\projetoolamundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|c:\\users\\241045\\source\\repos\\projetoolamundo\\projetoolamundo\\abertura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\abertura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|c:\\users\\241045\\source\\repos\\projetoolamundo\\projetoolamundo\\minigames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\minigames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|c:\\users\\241045\\source\\repos\\projetoolamundo\\projetoolamundo\\abertura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\abertura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|c:\\users\\241045\\source\\repos\\projetoolamundo\\projetoolamundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D5109C-15EC-4FBA-AA22-3A66BD3086DA}|ProjetoOlaMundo\\ProjetoOlaMundo.csproj|solutionrelative:projetoolamundo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Abertura.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Abertura.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\Abertura.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Abertura.cs [Projeto]",
+              "RelativeToolTip": "ProjetoOlaMundo\\Abertura.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:29:45.26Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\Form1.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form1.cs [Projeto]",
+              "RelativeToolTip": "ProjetoOlaMundo\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T00:32:57.33Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MiniGames.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\MiniGames.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\MiniGames.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\MiniGames.cs [Projeto]",
+              "RelativeToolTip": "ProjetoOlaMundo\\MiniGames.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T01:36:51.284Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form2.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\Form2.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form2.cs [Projeto]",
+              "RelativeToolTip": "ProjetoOlaMundo\\Form2.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T01:45:00.88Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Abertura.cs",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Abertura.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\Abertura.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Abertura.cs",
+              "RelativeToolTip": "ProjetoOlaMundo\\Abertura.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T00:33:29.484Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\Form1.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form1.cs",
+              "RelativeToolTip": "ProjetoOlaMundo\\Form1.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T00:34:55.609Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MiniGames.cs",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\MiniGames.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\MiniGames.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\MiniGames.cs",
+              "RelativeToolTip": "ProjetoOlaMundo\\MiniGames.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwBwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T01:40:48.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form2.cs",
+              "RelativeDocumentMoniker": "ProjetoOlaMundo\\Form2.cs",
+              "ToolTip": "C:\\Users\\241045\\source\\repos\\ProjetoOlaMundo\\ProjetoOlaMundo\\Form2.cs",
+              "RelativeToolTip": "ProjetoOlaMundo\\Form2.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAwDoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T01:47:22.904Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

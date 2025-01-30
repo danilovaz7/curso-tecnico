@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem</title>
+  <style>
+     body {
+        font-family: Arial, sans-serif;
+        background-color: #bdd5ff;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+
+        margin: 0px
+    }
+  </style>
+
+</head>
+<body>
+    <%- include('templates/header') %>
+
+    <h1>Postagem #<%= post.id %></h1>
+
+    <%- include('templates/post', { title: post.title, content: post.content, userName: post.user.name, imgPath: post.user.image }) %>
+</body>
+</html>

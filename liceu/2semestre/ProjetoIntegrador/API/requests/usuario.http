@@ -1,0 +1,34 @@
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "Eduardo",
+    "cpf": "eduardo@mail.com",
+    "senha": "12334",
+    "tipo": "Normal",
+    "foto": "asiodfhoihjfiwehfiawehfiawhifhiawehf",
+    "numero_apartamento": 12
+}
+
+###
+
+GET http://localhost:3000/usuarios
+
+###
+
+GET http://localhost:3000/usuarios/1
+
+###
+
+PUT http://localhost:3000/usuarios/1
+Content-Type: application/json
+
+{
+    "nome": "Guilherme"
+}
+
+###
+
+DELETE http://localhost:3000/usuarios/6
+
+###

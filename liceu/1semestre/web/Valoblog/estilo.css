@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+
+}
+
+header {
+    background-color: #180000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+header img {
+    width: 500px;
+}
+
+nav {
+    background-color: #250000;
+    height: 70px;
+    padding-right: 20px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #180000;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    padding: 1.25em;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background-color: #130000;
+    text-align: justify;
+    width: 60%;
+    padding: 1.25em;
+    font-size: 23px;
+}
+
+section img {
+    width: 30%;
+}
+
+section a {
+    color: rgb(150, 38, 38);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    gap: 40px;
+}
+
+article p {
+    font-size: 30px;
+}
+
+aside {
+
+    background-color: #130000;
+    justify-content: space-around;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0.9em;
+
+
+}
+
+#conteudo-sobremim {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sobre-mim img {
+    width: 40%;
+    padding: 0.625em;
+
+}
+
+
+
+.noticia-index {
+    background-color: #4e2525;
+    border-radius: 10px;
+    display: flex;
+    width: 80%;
+    height: 28%;
+}
+
+
+.noticia-index img {
+    width: 40%;
+    padding: 0.625em;
+}
+
+.conteudo-noticia-index {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    padding: 0.625em;
+    font-size: 15px;
+
+}
+
+.conteudo-noticia-postagens a {
+    color: rgb(255, 146, 146);
+}
+
+.conteudo-noticia-postagens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    padding: 1em;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.conteudo-noticia-postagens p,
+h3 {
+    font-size: 25px;
+}
+
+.conteudo-noticia-index h5,
+h3 {
+    margin: 0px;
+}
+
+
+.section-noticias {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.noticia-postagem {
+    background-color: #4e2525;
+    border-radius: 10px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.noticia-postagem img {
+    width: 40%;
+    padding: 0.625em;
+}
+
+
+
+
+aside :hover {
+    background-color: #6e3939;
+    border-radius: 10px;
+}
+
+
+
+footer {
+    background-color: #3f0000;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(253, 171, 168);
+}
+
+
+
+@media (max-width: 1400px) {
+
+    main {
+        flex-direction: column;
+
+
+    }
+
+    .conteudo-noticia-index {
+        font-size: 18px;
+    }
+
+    section {
+
+        padding: 1em;
+        text-align: justify;
+        width: 100%;
+
+    }
+
+    aside {
+        gap: 20px;
+        padding: 0.9em;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        /*font-size: 18px;*/
+
+    }
+
+    .noticia-index {
+       
+        width: 80%;
+
+    }
+
+    .conteudo-noticia-index {
+        font-size: 14px;
+    }
+
+    .conteudo-noticia-postagens p,
+    h3 {
+        font-size: 20px;
+    }
+
+    #conteudo-sobremim {
+        flex-direction: column;
+    }
+
+    article p {
+        font-size: 22px;
+    }
+
+    .sobre-mim img {
+        width: 50%;
+
+    }
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+    header img {
+        width: 18.75em;
+    }
+
+
+    nav ul {
+        justify-content: center;
+    }
+
+    ul a {
+
+        font-size: 21px;
+    }
+
+    main {
+        flex-direction: column;
+
+    }
+
+    section {
+        font-size: 20px;
+        padding: 1em;
+        text-align: justify;
+        width: 100%;
+    }
+
+
+    .noticia-index {
+        
+        width: 80%;
+    }
+
+    .conteudo-noticia-index {
+        font-size: 19px;
+    }
+
+
+
+    article {
+        flex-direction: column;
+
+    }
+
+    article img {
+        width: 90%;
+    }
+
+    .sobre-mim img {
+        width: 80%;
+
+    }
+
+    .section-noticias {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .noticia-postagem {
+
+        flex-direction: column-reverse;
+        display: flex;
+        width: 80%;
+
+
+    }
+
+    .conteudo-noticia-postagens {
+        width: 100%;
+    }
+
+    .noticia-postagem img {
+        width: 100%;
+        padding: 0.625em;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    h1 {
+        font-size: 17px;
+    }
+
+    section {
+        font-size: 16px;
+
+    }
+    nav{
+        padding-right: 0px;
+    }
+    nav ul{
+        gap: 30px;
+    }
+
+    nav a{
+        font-size: 15px;
+    }
+
+    .noticia-index {
+        flex-direction: column;
+        width: 80%;
+        gap: 0.5em;
+    }
+
+    .conteudo-noticia-index {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .noticia-index img {
+        width: 100%;
+    }
+
+
+    .noticia-noticias {
+        flex-direction: column;
+        width: 90%;
+        gap: 0.5em;
+
+    }
+
+
+
+}
+
+
+@media (max-width: 500px) {
+
+    nav ul{
+        gap: 20px;
+    }
+
+}

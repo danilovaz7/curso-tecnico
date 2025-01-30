@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-26 08:16:07 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODoxMToxMCAiOzIyNzU="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODoxNjowNyAiOzE7MjM5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="array" type="Integer" array="True" size="10"/>
+            <declare name="arrayNovo" type="Integer" array="True" size="10"/>
+            <declare name="contador2" type="Integer" array="False" size=""/>
+            <for variable="contador" start="0" end="9" direction="inc" step="1">
+                <input variable="array[contador]"/>
+            </for>
+            <for variable="contador2" start="0" end="9" direction="inc" step="1">
+                <assign variable="arrayNovo[contador2]" expression="array[contador2] * 2"/>
+                <output expression="arrayNovo[contador2]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

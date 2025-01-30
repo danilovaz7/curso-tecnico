@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-12 07:27:30 "/>
+        <attribute name="created" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6MjM6MTkgOyAyNTI2"/>
+        <attribute name="edited" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6Mjc6MzAgOyAyNTIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="num3" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero&quot;"/>
+            <input variable="num1"/>
+            <output expression="&quot;outro&quot;"/>
+            <input variable="num2"/>
+            <output expression="&quot;mais um&quot;"/>
+            <input variable="num3"/>
+            <if expression="num1 &gt; num2">
+                <then>
+                    <if expression="num2&gt; num3">
+                        <then>
+                            <output expression="&quot;em ordem crescente: &quot; &amp;num1&amp; &quot;, &quot; &amp;num2&amp; &quot;, &quot; &amp;num3"/>
+                        </then>
+                        <else>
+                            <if expression="num1 &gt; num3">
+                                <then>
+                                    <output expression="&quot;em ordem crescente: &quot; &amp;num1&amp; &quot;, &quot; &amp;num3&amp; &quot;, &quot; &amp;num2"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;em ordem crescente: &quot; &amp;num3&amp; &quot;, &quot; &amp;num1&amp; &quot;, &quot; &amp;num2"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num2 &gt; num3">
+                        <then>
+                            <if expression="num1 &gt; num3">
+                                <then>
+                                    <output expression="&quot;em ordem crescente: &quot; &amp;num2&amp; &quot;, &quot; &amp;num1&amp; &quot;, &quot; &amp;num3"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;em ordem crescente: &quot; &amp;num2&amp; &quot;, &quot; &amp;num3&amp; &quot;, &quot; &amp;num1"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;em ordem crescente: &quot; &amp;num3&amp; &quot;, &quot; &amp;num2&amp; &quot;, &quot; &amp;num1"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

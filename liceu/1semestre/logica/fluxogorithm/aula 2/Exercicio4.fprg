@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-12 07:19:19 "/>
+        <attribute name="created" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6MTQ6MDQgOyAyNTIw"/>
+        <attribute name="edited" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMjsgMDc6MTk6MTkgOyAyNTMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qntMax" type="Integer" array="False" size=""/>
+            <declare name="qntMin" type="Integer" array="False" size=""/>
+            <declare name="qntAtual" type="Integer" array="False" size=""/>
+            <declare name="media" type="Integer" array="False" size=""/>
+            <declare name="tecla" type="String" array="False" size=""/>
+            <output expression="&quot;insira a quantidade maxima&quot;"/>
+            <input variable="qntMax"/>
+            <output expression="&quot;insira a quantidade minima&quot;"/>
+            <input variable="qntMin"/>
+            <output expression="&quot;insira a quantidade atual&quot;"/>
+            <input variable="qntAtual"/>
+            <assign variable="media" expression="(qntMax + qntMin) / 2"/>
+            <if expression="qntAtual &lt; media">
+                <then>
+                    <output expression="&quot;caso queira comprar mais digite a letra: y&quot;"/>
+                    <input variable="tecla"/>
+                    <if expression="tecla == &quot;y&quot;">
+                        <then>
+                            <output expression="&quot;comprou mais, parabens&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;optou por n&#227;o comprar&quot;"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;n&#227;o &#233; necessario comprar mais&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

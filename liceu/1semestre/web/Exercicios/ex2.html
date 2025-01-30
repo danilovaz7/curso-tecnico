@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>EX 2</title>
+</head>
+
+<body>
+
+    <input id="1" type="number" placeholder="numero 1">
+    <button onclick=Soma()>Resultado</button>
+
+    <p id="texto"></p>
+
+    <script>
+        let somaNumeros = 0;
+        function Soma() {
+
+            numero1 = document.getElementById("1").value;
+
+            somaNumeros = parseInt(numero1) + somaNumeros;
+
+            document.getElementById("texto").innerHTML = `A soma até agora é de: ${somaNumeros} `;
+        }
+
+    </script>
+
+</body>
+
+</html>

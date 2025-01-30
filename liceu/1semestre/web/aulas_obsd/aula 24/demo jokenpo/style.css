@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+@keyframes shake {
+    10%, 40%, 70%, 100% {
+        bottom: 0px;
+    }
+
+    25%, 55%, 85% {
+        bottom: 30px;
+    }
+}
+
+* {
+    font-family: 'Montserrat', Courier, monospace;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+main {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#duel-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#duel-container img {
+    position: relative; /* Importante para funcionar o 'top' da animação */
+}
+
+#cpu-img {
+    transform: scaleX(-1); /* Inverte a mãozinha da CPU */
+}
+
+#btns-container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice-btn {
+    background-origin: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1.5rem;
+}
+
+#btn-pedra {
+    background-image: url('./assets/pedra.png');
+}
+
+#btn-papel {
+    background-image: url('./assets/papel.png');
+}
+
+#btn-tesoura {
+    background-image: url('./assets/tesoura.png');
+}
+
+button {
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 100px;
+}

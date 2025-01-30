@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 07:45:07 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwODoxODoxMiAiOzIyODU="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwODoxODoxNCAiOzE7MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwNzoyODoxMSAiO2V4ZXJjaWNpbzEuZnByZzs2Mjc4"/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwNzo0NTowNyAiOzc7MjQwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <do expression="num1 &gt; num2">
+                <input variable="num2"/>
+            </do>
+            <for variable="contador" start="num1" end="num2" direction="inc" step="1">
+                <output expression="contador" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

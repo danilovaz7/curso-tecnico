@@ -1,0 +1,14 @@
+GET http://localhost:3000/auditoria
+
+###
+GET http://localhost:3000/auditoria/1
+
+###
+
+POST http://localhost:3000/auth
+Content-Type: application/json
+
+{
+    "tokenHash": "987d8adaisn"
+   
+}

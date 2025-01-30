@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <style>
+        :root {
+            --bg-dark: black;
+            --btn-bg-light: lightgray;
+            --btn-bg-dark: rgb(24, 24, 24);
+        }
+
+        * {
+            transition: background-color 0.5s;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #darkmode-switch {
+            height: 300px;
+            width: 300px;
+            padding: 40px;
+            cursor: pointer;
+            border-radius: 200px;
+            background-color: var(--btn-bg-light);
+            background-image: url('./moon.png');
+            background-origin: content-box;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        /* dark mode classes */
+
+        body.dark {
+            background-color: var(--bg-dark);
+        }
+
+        body.dark #darkmode-switch {
+            background-color: var(--btn-bg-dark);
+            background-image: url('./sun.png');
+        }
+    </style>
+</head>
+
+<body>
+    <div id="darkmode-switch" onclick=switchTheme()></div>
+
+    <script>
+        let darkTheme = false;
+
+        function switchTheme() {
+            if (!darkTheme) {
+                document.body.classList.add("dark");
+                darkTheme = true;
+            } else {
+                document.body.classList.remove("dark");
+                darkTheme = false;
+            } 
+        }
+
+        document.body.onkeydown = function(e) { 
+            // if (e.key == " ") {
+                switchTheme();
+            // }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>EX 3</title>
+</head>
+
+<body>
+
+    <input id="1" type="number" placeholder="numero 1">
+    <button onclick=funcao()>Resultado</button>
+
+    <p id="texto"></p>
+
+    <script>
+        maior = 0;
+        menor= 0;
+
+        function funcao() {
+
+            numero1 = document.getElementById("1").value;
+
+            if (parseInt(numero1) > maior) {
+                maior = parseInt(numero1);
+            } else if (parseInt(numero1) < menor) {
+                menor = parseInt(numero1);
+            }
+
+            document.getElementById("texto").innerHTML = `O maior numero é ${maior}, e o menor numero é ${menor}`;
+            ;
+
+        }
+
+    </script>
+
+</body>
+
+</html>

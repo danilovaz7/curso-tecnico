@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-18 08:32:36 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwODoxODoxMiAiOzIyODU="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwODoxODoxNCAiOzE7MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwNzoyODoxMSAiO2V4ZXJjaWNpbzEuZnByZzs2Mjc4"/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE4OyIwODozMjozNiAiOzI7MjM5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <do expression="num1 &lt;= 0">
+                <output expression="&quot;insira um valor maior que 0&quot;" newline="True"/>
+                <input variable="num1"/>
+            </do>
+            <do expression="num2 &lt;= 0">
+                <output expression="&quot;insira outro valor maior que 0&quot;" newline="True"/>
+                <input variable="num2"/>
+            </do>
+            <output expression="&quot;valores inseridos: &quot; &amp;num1&amp; &quot;, &quot; &amp;num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

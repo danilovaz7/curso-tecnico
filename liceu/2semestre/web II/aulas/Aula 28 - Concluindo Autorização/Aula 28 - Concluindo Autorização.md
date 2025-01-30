@@ -1,0 +1,4 @@
+
+Na aula passada, enrolamos um pouco no desenvolvimento da *Autenticação* na nossa aplicação demo, até para termos todos juntos para concluir o conteúdo de agora: **Autorização**. Hoje vamos terminar de desenvolver o projeto dessas últimas aulas e o resto da aula ficará livre para *começarem ou continuarem a atividade* do [[Blog v2.0]].
+
+Vamos também promover um papo sobre o **TCC**, gostaria de conversar um pouco sobre as *ideias* de vocês e trazer minha perspectiva a respeito desse processo. Além disso, gostaria de mostrar mais no detalhe um pouco sobre como foi o desenvolvimento do *meu TCC* que apresentei na ETECAF em 2016.

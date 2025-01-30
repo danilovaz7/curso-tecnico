@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-11 08:58:08 "/>
+        <attribute name="created" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMTsgMDg6MjQ6MDMgOyAyNTIw"/>
+        <attribute name="edited" value="YWRtaW47IExJQ0xBQlRFQy0wMjsgMjAyNC0wMy0xMTsgMDg6NTg6MDggOyAyNTMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <declare name="comparar" type="Boolean" array="False" size=""/>
+            <output expression="&quot;insira um valor&quot;"/>
+            <input variable="valor"/>
+            <assign variable="comparar" expression="valor &gt;= 0"/>
+            <if expression="comparar">
+                <then>
+                    <output expression="&quot;valor positivo&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;valor negativo&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

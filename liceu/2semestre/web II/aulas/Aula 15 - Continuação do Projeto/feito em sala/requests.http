@@ -1,0 +1,29 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Jorge",
+    "email": "jorge@email.com"
+}
+
+###
+
+POST http://localhost:3000/users/1/posts
+Content-Type: application/json
+
+{
+    "title": "Uma postagem",
+    "content": "O conteúdo de uma postagem"
+}
+
+###
+
+GET http://localhost:3000/users/1/posts
+
+###
+
+GET http://localhost:3000/posts

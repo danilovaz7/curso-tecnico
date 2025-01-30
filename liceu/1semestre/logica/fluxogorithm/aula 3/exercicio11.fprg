@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 09:00:19 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwODo1NzoxNiAiOzIyOTM="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwOTowMDoxOSAiOzI7MjM5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="contador2" type="Integer" array="False" size=""/>
+            <for variable="contador" start="1" end="10" direction="inc" step="1">
+                <for variable="contador2" start="1" end="10" direction="inc" step="1">
+                    <output expression="contador * contador2" newline="True"/>
+                </for>
+                <output expression="&quot;------&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

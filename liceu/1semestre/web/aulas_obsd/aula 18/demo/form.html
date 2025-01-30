@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    <form action="#">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" placeholder="nome de usuário" minlength="6"  maxlength="15" required>
+        
+        <br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password">
+        
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="email@liceusantista.com.br">
+        
+        <br>
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" placeholder="(13)1234-5678">
+        
+        <br>
+
+        <label for="birthdate">Data de nascimento:</label>
+        <input type="date" id="birthdate">
+        
+        <br>
+
+        <label for="quantity">Quantidade:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1">
+        
+        <br>
+
+        <label for="type">Tipo:</label>
+        
+        <label for="student">Aluno</label>
+        <input type="radio" id="student" name="type">
+        <label for="teacher">Professor</label>
+        <input type="radio" id="teacher" name="type">
+        <label for="other">Outro</label>
+        <input type="radio" id="other" name="type">
+        
+        <br>
+
+        <label for="payment">Pagamento:</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="giftcard">Vale-presente</option>
+        </select>
+        
+        <br>
+
+        <label for="subscribe">Increver-se:</label>
+        <input type="checkbox" id="subscribe">
+        
+        <br>
+
+        <label for="comment">Comentário:</label>
+        <textarea id="comment" rows="3" cols="25"></textarea>
+        
+        <br>
+
+        <label for="file">Arquivo:</label>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+        
+        <br>
+
+        <input type="reset"><input type="submit">
+    </form>
+</body>
+</html>

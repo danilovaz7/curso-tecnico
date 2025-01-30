@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgray;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        main {
+            width: 50%;
+            padding: 3em;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .alternativa-container {
+            width: 90%;
+            border-radius: 5px;
+            background-color: lightgray;
+            margin: 0.5em;
+            padding: 0.5em;
+            text-align: center;
+            display: flex;
+            gap: 1em;
+        }
+
+        button {
+            width: 50%;
+            padding: 0.5em;
+            margin-top: 1em;
+            color: white;
+            background-color: rgb(12, 48, 255);
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+    </style>
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Quiz</h1>
+
+        <br>
+
+        <h2 id="pergunta">Pergunta</h2>
+        
+        <form id="form">
+            <div class="alternativa-container">
+                <input type="radio" name="quiz" id="radio0">
+                <label for="radio0" id="alternativa0">Alternativa 0</p>
+            </div>
+            <div class="alternativa-container">
+                <input type="radio" name="quiz" id="radio1">
+                <label for="radio1" id="alternativa1">Alternativa 1</p>
+            </div>
+            <button type="submit">Responder!</button>
+        </form>
+    </main>
+</body>
+</html>

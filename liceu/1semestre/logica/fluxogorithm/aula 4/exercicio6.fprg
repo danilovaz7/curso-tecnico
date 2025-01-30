@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-26 08:40:48 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODoyOTowOSAiOzIyOTI="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODo0MDo0OCAiOzE7MjM5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="array" type="Integer" array="True" size="10"/>
+            <declare name="maiorNum" type="Integer" array="False" size=""/>
+            <assign variable="maiorNum" expression="0"/>
+            <declare name="menorNum" type="Integer" array="False" size=""/>
+            <assign variable="menorNum" expression="0"/>
+            <for variable="contador" start="0" end="9" direction="inc" step="1">
+                <input variable="array[contador]"/>
+            </for>
+            <for variable="contador" start="0" end="9" direction="inc" step="1">
+                <if expression="contador == 0">
+                    <then>
+                        <assign variable="maiorNum" expression="array[0]"/>
+                        <assign variable="menorNum" expression="array[0]"/>
+                    </then>
+                    <else>
+                        <if expression="array[contador] &gt; maiorNum">
+                            <then>
+                                <assign variable="maiorNum" expression="array[contador]"/>
+                            </then>
+                            <else>
+                                <if expression="array[contador] &lt; menorNum">
+                                    <then>
+                                        <assign variable="menorNum" expression="array[contador]"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <output expression="maiorNum" newline="True"/>
+            <output expression="menorNum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,46 @@
+create table computador (
+	id_computador int not null auto_increment,
+    nm_modelo varchar(200) not null,
+    ic_ativo smallint default 1,
+    CONSTRAINT pk_id_computador PRIMARY KEY(id_computador)
+);
+
+create table teclado (
+	id_teclado int not null auto_increment,
+    nm_modelo varchar(200) not null,
+    ic_ativo smallint default 1,
+    id_computador_teclado int unique not null,
+    PRIMARY KEY pk_id_teclado (id_teclado),
+    FOREIGN KEY (id_computador_teclado) 
+    REFERENCES computador(id_computador)
+);
+
+
+create table periferico (
+	id_periferico int not null auto_increment,
+    nm_periferico varchar(200) not null,
+    ic_ativo smallint default 1,
+    id_computador_periferico int not null,
+    PRIMARY KEY pk_id_periferico (id_periferico),
+    FOREIGN KEY (id_computador_periferico) 
+    REFERENCES computador(id_computador)
+);
+
+
+
+
+select * from computador as comp
+inner join teclado as tcl on comp.id_computador = tcl.id_computador_teclado;
+
+select comp.nm_modelo as 'modelo_pc',
+comp.ic_ativo as 'computador_ativo',
+tcl.nm_modelo as 'teclado' from computador as comp
+inner join teclado as tcl on comp.id_computador = tcl.id_computador_teclado;
+
+select * from computador as comp
+inner join periferico as perf on comp.id_computador = perf.id_computador_periferico;
+
+select comp.id_computador as 'modelo_pc',
+comp.nm_modelo as 'computador_ativo',
+perf.nm_periferico as 'periferico' from computador as comp
+inner join periferico as perf on comp.id_computador = perf.id_computador_periferico;

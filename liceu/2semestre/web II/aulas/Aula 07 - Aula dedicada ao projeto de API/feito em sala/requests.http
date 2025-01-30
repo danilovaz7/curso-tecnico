@@ -1,0 +1,5 @@
+GET http://gateway.marvel.com/v1/public/characters?ts=1724453107200&apikey=4bf0c6db810f3ad20c1ffd2053ad8bb8&hash=1906ff126056c5d23c800d7f591c6eba
+
+###
+
+GET swapi.dev/api/planets/1/

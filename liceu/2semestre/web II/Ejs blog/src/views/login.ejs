@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Criar Post</title>
+   <link rel="stylesheet" href="/css/newPost.css">
+   <style>
+      form {
+         width: 40%;
+         align-items: center;
+         display: flex;
+      }
+
+      .campoInput {
+         display: flex;
+         align-items: start;
+         flex-direction: column;
+         gap: 5px;
+         width: 100%;
+      }
+
+      button {
+         width: 30%;
+
+      }
+
+      header {
+         width: 100%;
+         background-color: #012057;
+         text-align: center;
+         padding: 20px;
+      }
+
+      h1 {
+         color: white;
+      }
+   </style>
+</head>
+
+<body>
+   <header>
+      <h1>BLOG DO Dan</h1>
+   </header>
+
+   <form action="/login" method="post">
+      <h1>Login</h1>
+      <% if (erro=='expirado' ) { %>
+         <h4 style="color: red;font-stretch: expanded;" for="">Sessão expirada !</h4>
+         <% } %>
+
+            <div class="campoInput">
+               <input type="text" name="email" placeholder="Digite seu email" required>
+               <% if (erro=='email' ) { %>
+                  <label style="color: red;font-stretch: expanded;" for="">Email não cadastrado !</label>
+                  <% } %>
+            </div>
+            <div class="campoInput">
+
+               <input type="text" name="password" placeholder="Digite sua senha" required></input>
+               <% if (erro=='senha' ) { %>
+                  <label style="color: red;font-stretch: expanded;" for="">Senha inválida !</label>
+                  <% } %>
+            </div>
+
+            <button type="submit">Entrar</button>
+
+   </form>
+</body>
+
+</html>

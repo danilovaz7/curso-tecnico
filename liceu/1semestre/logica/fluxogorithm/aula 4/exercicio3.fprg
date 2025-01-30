@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-26 08:11:04 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODowMzowMyAiOzIyNzg="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTI2OyIwODoxMTowNCAiOzE7MjM4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array" type="Integer" array="True" size="10"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="vezes" type="Integer" array="False" size=""/>
+            <assign variable="vezes" expression="0"/>
+            <declare name="contador2" type="Integer" array="False" size=""/>
+            <for variable="contador" start="0" end="9" direction="inc" step="1">
+                <input variable="array[contador]"/>
+            </for>
+            <input variable="numero"/>
+            <for variable="contador2" start="0" end="9" direction="inc" step="1">
+                <if expression="array[contador2] == numero">
+                    <then>
+                        <assign variable="vezes" expression="vezes + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;o numero &quot; &amp;numero&amp; &quot; apareceu &quot; &amp;vezes&amp; &quot; vezes&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

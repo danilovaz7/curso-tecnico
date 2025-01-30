@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eleição do Grêmio Estudantil - Liceu Santista 2024/2025</title>
+    <script>
+        let loadCount = 0;
+
+        function checkLoad() {
+            if (loadCount != 0) {
+                window.location.replace("final.html");
+            }
+            loadCount++;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <p>
+            <a href="index.html"><img src="img/liceu.png" alt="logo do liceu santista"></a>
+        </p>
+
+        <h1 id="votacao">Votação 2024</h1>
+
+        <iframe id="frame"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfVZK6obr1eXYCtjmLCFTY96PYvVQ5urvDnCvY1PCjHJyNPfQ/viewform?embedded=true"
+            width="750" height="1400" frameborder="0" marginheight="0" marginwidth="0"
+            onLoad=checkLoad()>Carregando…</iframe>
+
+        <div class="fundo"></div>
+
+    </div>
+
+</body>
+
+</html>

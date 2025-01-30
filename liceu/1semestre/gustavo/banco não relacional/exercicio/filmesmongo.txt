@@ -1,0 +1,84 @@
+db.filmes.insertMany([
+    {
+        "titulo":"Guerra Civil", 
+        "ano_publicacao":2024,
+        "distribuidora": "Fox",
+        "diretor": 
+            ["Alex Garland"]
+        ,
+        "produtor": 
+            ["Gregory Goodman", "Andrew McDonald"]
+        , 
+        "elenco" : 
+            ["Wagner Moura", "Kirsten Dunst", "Cailee Spaeny"]
+        ,
+        "genero":"drama",
+        "nota_imdb":7.6,
+        "link_imdb":"https://imdb.com/title/tt17279496/",
+        "ativo":"true"
+    }
+    ,
+    {
+        "titulo":"Deadpool 3",
+        "ano_publicacao":2024,
+        "distribuidora": "Disney",
+        "diretor": 
+            ["Shawn Levy"]
+        ,
+        "produtor": 
+            ["Shawn Levy"]
+        , 
+        "elenco" : 
+            ["Hugh Jackman", "Ryan Reynolds"]
+        ,
+        "genero":"comedia",
+        "nota_imdb":8,
+        "ativo":"true",
+        "link_imdb":"https://imdb.com/title/tt263850/"
+    }
+    ,
+    {
+        "titulo":"Star Wars: Episode IX - The Rise of Skywalker",
+        "ano_publicacao":2019,
+        "distribuidora": "Disney",
+        "diretor": ["J.J. Abrams"],
+        "produtor":["J.J. Abrams"], 
+        "elenco" : ["Carrie Fischer", "Daisy Ridley","John Boyega","Oscar Isaac"],
+        "genero":"acao",
+        "nota_imdb":6.9,
+        "ativo":"true",
+        "link_imdb":"https://imdb.com/title/tt2527338/"
+    }
+    ,
+    {
+        "titulo":"Star Wars: Obi-Wan Kenobi",
+        "ano_publicacao":2022,
+        "distribuidora": "Disney",
+        "diretor": ["J.J. Abrams"],
+        "produtor":["J.J. Abrams"], 
+        "elenco" : ["Carrie Fischer", "Ewann McGregor","John Boyega","Oscar Isaac"],
+        "genero":"acao",
+        "nota_imdb":6.9,
+        "ativo":"false",
+        "link_imdb":"https://imdb.com/title/tt8466564/"
+    }
+    ,
+    {
+        "titulo":"Tropa de Elite 2",
+        "ano_publicacao":2011,
+        "distribuidora": "Independente",
+        "diretor": ["Jose Padilha"],
+        "produtor":["Jose Padilha"], 
+        "elenco" : ["Wagner Moura", "Andre Ramiro", "Braulio Montovani"],
+        "genero":"drama",
+        "nota_imdb":6.9,
+        "ativo":"true",
+        "link_imdb":"https://imdb.com/title/tt1555149/"
+    }
+    ]);
+
+	ex1) db.filmes.find({ano_publicacao:{$gte:2000}}).pretty();
+	ex2) db.filmes.find({ano_publicacao:{$gte:2020}}).pretty();
+    	ex3) db.filmes.find({diretor:/Shawn/}).pretty();
+	ex4) db.filmes.find({elenco:{$all:['Carrie Fischer'] }}).pretty();
+	ex5) db.filmes.find({titulo:/a/}).pretty();

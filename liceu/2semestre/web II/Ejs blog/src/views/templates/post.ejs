@@ -1,0 +1,76 @@
+<style>
+    .postContainer {
+        width: 60%;
+        padding: 10px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background-color: #012057;
+        color: white;
+        pad: 10px;
+        margin-top: 50px;
+    }
+
+    .post{
+        display: flex;
+        width: 80%;
+        gap: 5px;
+        flex-direction: column;
+        padding: 10px;
+        align-items: start;
+        border-radius: 7px;
+        background-color: #012769;
+    }
+
+    .user {
+        display: flex;
+        width: 20%;
+        gap: 5px;
+        padding: 5px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #postTitle {
+        font-size:30px;
+        color:#b9d1fa ;
+    }
+
+    #postContent{
+        background-color: #254680;
+        width: 96%;
+        border-radius: 7px;
+        padding: 10px;
+        color: white;
+    }
+
+    #userName{
+        font-size: 24px;
+    }
+
+    #imgPost {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    }
+</style>
+
+
+<div class="postContainer">
+    <div class="user">
+        <img id="imgPost" src=<%=imgPath %> alt="">
+        <h1 id="userName">
+            <%= userName %>
+        </h1>
+    </div>
+
+    <div class="post">
+        <h2 id="postTitle">
+            <%= title %>
+        </h2>
+        <p id="postContent">
+            <%= content %>
+        </p>
+    </div>
+</div>

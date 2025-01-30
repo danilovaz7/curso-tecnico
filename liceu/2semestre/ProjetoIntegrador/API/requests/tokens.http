@@ -1,0 +1,32 @@
+GET http://localhost:3000/tokens
+
+###
+
+GET http://localhost:3000/tokens/1
+
+###
+
+GET http://localhost:3000/usuarios/1/tokens
+###
+
+POST http://localhost:3000/usuarios/1/tokens
+Content-Type: application/json
+
+{
+    "token_hash": "aaaaaaaaaa",
+    "ic_ativo": 0
+}
+
+### 
+
+PUT http://localhost:3000/tokens/7
+Content-Type: application/json
+
+{
+    "ic_ativo": false
+}
+
+###
+DELETE http://localhost:3000/tokens/7
+
+###

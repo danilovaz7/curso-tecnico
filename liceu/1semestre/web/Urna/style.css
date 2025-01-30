@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-image: linear-gradient(to left, rgb(61, 86, 224), rgb(241, 50, 50));
+    font-family: "Libre Baskerville", serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    gap: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(241, 50, 50);
+    width: 990px;
+    height: 50px;
+    border-radius: 3px;
+    filter: drop-shadow(0 0 1rem rgb(43, 31, 33));
+}
+
+#votacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(61, 86, 224);
+    background-color: whitesmoke;
+    width: 260px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#agradecimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(241, 50, 50);
+    width: 470px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+button {
+    width: 200px;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid rgb(241, 50, 50);
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 40px;
+    background-color: rgb(241, 50, 50);
+    color: white;
+    filter: drop-shadow(0 0 1rem rgb(43, 31, 33));
+}
+
+button:hover {
+    background-color: #DC4C3E;
+    cursor: pointer;
+}
+
+img {
+    width: 400px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 1rem rgb(43, 31, 33));
+}
+
+.fundo {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    width: 139px;
+    height: 40px;
+    position: relative;
+    bottom: 128px;
+    left: 268px; 
+    z-index: -1;
+}
+
+#secreto {
+    background-color: rgb(61, 86, 224);
+ 
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 0px;
+    left:1300px; 
+}

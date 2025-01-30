@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="241045"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-19 08:53:59 "/>
+        <attribute name="created" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwODo0OToxOSAiOzIyOTc="/>
+        <attribute name="edited" value="MjQxMDQ1O0xJQ0xBQlRFQy0wMjsyMDI0LTAzLTE5OyIwODo1Mzo1OSAiOzE7MjQwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tecla" type="String" array="False" size=""/>
+            <declare name="valorMercadoria" type="Integer" array="False" size=""/>
+            <output expression="&quot;mais mercadorias??&quot;" newline="True"/>
+            <do expression="tecla != &quot;s&quot;">
+                <input variable="tecla"/>
+            </do>
+            <output expression="&quot;insira o valor desejado da nova mercadoria&quot;" newline="True"/>
+            <input variable="valorMercadoria"/>
+            <output expression="&quot;o valor foi de: &quot; &amp;valorMercadoria&amp; &quot;,00&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

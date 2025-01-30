@@ -1,0 +1,17 @@
+POST http://localhost:3000/pedidos
+Content-Type: application/json
+
+{
+    "nmDestinatario": "Joao",
+    "id_remetente": 2,
+    "descricao": "fPIQWDHIPQwhdiIPqwhdiQHWwHD",
+    "numero_apartamento": "12"
+}
+
+###
+
+GET http://localhost:3000/pedidos
+
+###
+
+GET http://localhost:3000/pedidos/1

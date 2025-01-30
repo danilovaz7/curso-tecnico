@@ -1,0 +1,30 @@
+create table empregado (
+	id_empregado int not null auto_increment,
+    nome varchar(100) not null,
+    data_nascimento datetime not null, 
+    salario int not null,
+    ativo smallint default 1,
+    CONSTRAINT pk_id_empregado PRIMARY KEY (id_empregado)
+);
+
+create table dependente(
+	id_dependente int not null auto_increment,
+	nome varchar(100) not null,
+    sexo char not null,
+    data_nascimnto datetime not null,
+    id_empregado_dependente int unique not null,
+	PRIMARY KEY pk_id_dependente (id_dependente),
+    FOREIGN KEY (id_empregado_dependente) 
+    REFERENCES empregado(id_empregado)
+    );
+
+
+    insert into empregado values(null,'armando','1998-7-12 14:45:23',1400,1);
+insert into empregado values(null,'luiz','2001-12-1 14:45:23',9,1);
+insert into empregado values(null,'Ana','2006-6-8 14:45:23',20000,1);
+insert into empregado values(null,'joao','1980-7-24 14:45:23',4400,1);
+insert into empregado values(null,'firmino','2005-9-2 14:45:23',9834,1);
+
+select * from empregado;
+select * from dependente;
+insert into dependente values (null,'armandinho','M','2005-9-2 14:45:23',2);

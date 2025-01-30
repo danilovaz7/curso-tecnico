@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Show dos Centavos</title>
+    <script type="module" src="jogo.js" defer></script>
+</head>
+
+<body>
+
+    <main id="main-jogo">
+        <section id="topo">
+            <img onclick="window.location.replace('index.html')" src="imagens/logo.png" alt="">
+            <h2 id="pergunta">Pergunta</h2>
+            <div id="pontuacao">
+                <div id="ponto6" class="pontuacao-espaco"></div>
+                <div id="ponto5" class="pontuacao-espaco"></div>
+                <div id="ponto4" class="pontuacao-espaco"></div>
+                <div id="ponto3" class="pontuacao-espaco"></div>
+                <div id="ponto2" class="pontuacao-espaco"></div>
+                <div id="ponto1" class="pontuacao-espaco"></div>
+            </div>
+        </section>
+
+        <section id="alternativas">
+            <form id="form">
+                <div id="todas-alternativas">
+                    <div class="alternativa">
+                        <input class="input" type="radio" name="alt" id="alt0">
+                        <label for="alt0" id="alternativa0">Alternativa 0</label>
+                    </div>
+                    <div class="alternativa">
+                        <input class="input" type="radio" name="alt" id="alt1">
+                        <label for="alt1" id="alternativa1">Alternativa 1</label>
+                    </div>
+                    <div class="alternativa">
+                        <input class="input" type="radio" name="alt" id="alt2">
+                        <label for="alt2" id="alternativa2">Alternativa 2</label>
+                    </div>
+                    <div class="alternativa">
+                        <input class="input" type="radio" name="alt" id="alt3">
+                        <label for="alt3" id="alternativa3">Alternativa 3</label>
+                    </div>
+                </div>
+                <button id="botao-form" type="submit">Resposta</button>
+            </form>
+        </section>
+
+        <audio id="audio" preload="auto"></audio>
+        <audio id="audioVencedor" src="audiosAcerto/silvio1centavo.mp3" preload="auto"></audio>
+    </main>
+
+</body>
+
+</html>

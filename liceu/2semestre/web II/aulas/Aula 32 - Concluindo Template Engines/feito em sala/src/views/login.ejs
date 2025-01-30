@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Criar Post</title>
+   <link rel="stylesheet" href="/css/newPost.css">
+</head>
+<body>
+   <%- include('templates/header') %>
+
+   <form action="/login" method="post">
+      <h1>Login</h1>
+      <input type="text" name="email" placeholder="Digite seu email" required>
+      <textarea name="password" placeholder="Digite sua senha" required></textarea>
+      <button type="submit">Entrar</button>
+   </form>
+</body>
+</html>
