@@ -67,7 +67,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -191,10 +192,10 @@
   },
   "active": "33ba00f251043a2b",
   "lastOpenFiles": [
+    "Aula 24 - Introduzindo Migrações/Aula 24 - Introduzindo Migrações.md",
+    "Aula 25 - Migrando o banco para MySQL e Seeds/Aula 25 - Migrando o banco para MySQL e Seeds.md",
     "Aula 31 - Template Engines e EJS/Aula 31 - Template Engines e EJS.md",
     "Aula 32 - Concluindo Template Engines/Aula 32 - Concluindo Template Engines.md",
-    "Aula 25 - Migrando o banco para MySQL e Seeds/Aula 25 - Migrando o banco para MySQL e Seeds.md",
-    "Aula 24 - Introduzindo Migrações/Aula 24 - Introduzindo Migrações.md",
     "Aula 32 - Concluindo Template Engines/feito em sala/src/views/home.ejs",
     "Aula 32 - Concluindo Template Engines/feito em sala/src/views/login.ejs",
     "Aula 32 - Concluindo Template Engines/feito em sala/src/views/login.js",
