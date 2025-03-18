@@ -1,0 +1,25 @@
+tracert
+	-d: Não resolver endereços para nomes de hosts. ( exemplo: tracert -d www.exemplo.com)
+
+ping: O comando ping é usado para testar a conectividade de rede entre o seu dispositivo e outro destino, como um site ou endereço IP. Ele envia pacotes ICMP (Internet Control Message Protocol) e mede o tempo que eles levam para retornar. ( exemplo: ping www.exemplo.com)
+
+
+pathping
+	-p period: eríodo de espera em milissegundos entre os disparos. (exemplo: pathping -p 500 www.exemplo.com)
+
+netstat
+	-a:Exibe todas as conexões e portas de escuta. (exemplo: netstat -a)
+
+hostname: imprime o nome do host atual na tela ( exemplo: hostname)
+
+ipconfig: O ipconfig é um comando usado no Windows para exibir ou configurar informações de rede, como endereços IP e máscaras de sub-rede. ( exemplo: ipconfig) 
+
+nbtstat: exibe as estatísticas de protocolo e as conexões TCP/IP atuais que usam NBT 
+	-r: Lista nomes resolvidos por difusão e através do WINS ( exemplo: nbtstat -r)
+
+nslookup:O comando nslookup no Windows é usado para consultar servidores DNS, obtendo informações como o endereço IP associado a um nome de domínio ou o nome de domínio associado a um endereço IP. (exemplo: nslookup www.exemplo.com)
+
+route: Manipula as tabelas de roteamento
+	-route print: Este comando é usado no Windows para exibir a tabela de roteamento atual do dispositivo, que mostra como os pacotes de rede estão sendo direcionados. ( exemplo: route print)
+
+netsh: O netsh é uma ferramenta de linha de comando poderosa no Windows usada para configurar e gerenciar as configurações de rede do sistema. Ele oferece suporte para várias funções, como configurar adaptadores de rede, ajustar perfis Wi-Fi, e diagnosticar problemas de conectividade.
