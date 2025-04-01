@@ -1,0 +1,47 @@
+@startuml
+
+actor Aluno
+actor Professor
+actor Diretor
+actor Administrador
+
+usecase "Treinar por disciplina" as UC1
+usecase "Jogar no modo multijogador" as UC2
+usecase "Visualizar ranking da sala" as UC3
+usecase "Visualizar estatísticas gerais" as UC4
+
+usecase "Visualizar ranking de todas as salas" as UC5
+usecase "Adicionar pergunta ao banco de perguntas" as UC6
+usecase "Visualizar desempenho dos alunos na disciplina" as UC7
+usecase "Visualizar banco de perguntas da disciplina" as UC8
+
+usecase "Visualizar desempenho dos alunos em qualquer disciplina" as UC9
+usecase "Visualizar banco de perguntas de qualquer disciplina" as UC10
+
+usecase "Testar funcionalidades" as UC11
+usecase "Assegurar funcionamento completo do sistema" as UC12
+
+Aluno --> UC1
+Aluno --> UC2
+Aluno --> UC3
+Aluno --> UC4
+
+Professor --> UC5
+Professor --> UC6
+Professor --> UC7
+Professor --> UC8
+
+Diretor --> UC5
+Diretor --> UC9
+Diretor --> UC10
+
+Administrador --> UC5
+Administrador --> UC6
+Administrador --> UC7
+Administrador --> UC8
+Administrador --> UC9
+Administrador --> UC10
+Administrador --> UC11
+Administrador --> UC12
+
+@enduml

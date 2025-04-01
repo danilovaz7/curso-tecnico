@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml>
+    <actors>
+        <actor name="Aluno"/>
+        <actor name="Professor"/>
+        <actor name="Diretor"/>
+        <actor name="Administrador"/>
+    </actors>
+    <usecases>
+        <usecase id="UC1" name="Treinar por disciplina"/>
+        <usecase id="UC2" name="Jogar no modo multijogador"/>
+        <usecase id="UC3" name="Visualizar ranking da sala"/>
+        <usecase id="UC4" name="Visualizar estatísticas gerais"/>
+        <usecase id="UC5" name="Visualizar ranking de todas as salas"/>
+        <usecase id="UC6" name="Adicionar pergunta ao banco de perguntas"/>
+        <usecase id="UC7" name="Visualizar desempenho dos alunos na disciplina"/>
+        <usecase id="UC8" name="Visualizar banco de perguntas da disciplina"/>
+        <usecase id="UC9" name="Visualizar desempenho dos alunos em qualquer disciplina"/>
+        <usecase id="UC10" name="Visualizar banco de perguntas de qualquer disciplina"/>
+        <usecase id="UC11" name="Testar funcionalidades"/>
+        <usecase id="UC12" name="Assegurar funcionamento completo do sistema"/>
+    </usecases>
+    <associations>
+        <association actor="Aluno" usecase="UC1"/>
+        <association actor="Aluno" usecase="UC2"/>
+        <association actor="Aluno" usecase="UC3"/>
+        <association actor="Aluno" usecase="UC4"/>
+        <association actor="Professor" usecase="UC5"/>
+        <association actor="Professor" usecase="UC6"/>
+        <association actor="Professor" usecase="UC7"/>
+        <association actor="Professor" usecase="UC8"/>
+        <association actor="Diretor" usecase="UC5"/>
+        <association actor="Diretor" usecase="UC9"/>
+        <association actor="Diretor" usecase="UC10"/>
+        <association actor="Administrador" usecase="UC5"/>
+        <association actor="Administrador" usecase="UC6"/>
+        <association actor="Administrador" usecase="UC7"/>
+        <association actor="Administrador" usecase="UC8"/>
+        <association actor="Administrador" usecase="UC9"/>
+        <association actor="Administrador" usecase="UC10"/>
+        <association actor="Administrador" usecase="UC11"/>
+        <association actor="Administrador" usecase="UC12"/>
+    </associations>
+</uml>
