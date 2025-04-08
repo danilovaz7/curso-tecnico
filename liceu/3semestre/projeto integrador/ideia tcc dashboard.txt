@@ -1,0 +1,27 @@
+ideias para implementar no tcc
+
+dashboard mensal 
+ - Diretor vai poder ver o dashboard mensal com: 
+	-materia que mais erraram no mes; 
+	-quantos alunos treinaram cada materia;
+	-quantas salas online foram encerradas ( descarta aquelas que foram interrompidas - 'abertas' e 'em andamento'); 
+	-ver qual pergunta mais erraram de cada materia (por nivel) e qual mais acertaram (tambem por nivel).
+
+solucao pensada: 
+Criar duas tabelas: estatisticas_perguntas e estatisticas_materias
+
+	id
+	mes (exemplo: "2025-04")
+	materia_id
+	escola_id
+	respostas_erradas
+	respostas_corretas
+		
+	id
+	mes (exemplo: "2025-04")
+	pergunta_id
+	escola_id 
+	respostas_erradas
+	respostas_corretas
+	
+com essas tabelas tem um controle tanto das materias quanto das perguntas, podendo separar por mes para pesquisa no dashboard
